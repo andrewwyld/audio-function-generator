@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="IFYwQf" name="Function Generator" projectType="audioplug"
-              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              pluginCharacteristicsValue="pluginProducesMidiOut,pluginWantsMidiIn"
+              companyName="Music Research Unit">
   <MAINGROUP id="mqp4Ev" name="Function Generator">
     <GROUP id="{3133C9B7-04CF-A25D-CE95-97884308E67D}" name="Source">
       <FILE id="Ne4jRP" name="PluginProcessor.cpp" compile="1" resource="0"

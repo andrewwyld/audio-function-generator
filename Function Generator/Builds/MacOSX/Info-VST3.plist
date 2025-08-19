@@ -8,7 +8,7 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.FunctionGenerator</string>
+    <string>com.MusicResearchUnit.FunctionGenerator</string>
     <key>CFBundleName</key>
     <string>Function Generator</string>
     <key>CFBundleDisplayName</key>

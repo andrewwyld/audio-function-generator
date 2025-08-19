@@ -269,7 +269,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1340;
-				ORGANIZATIONNAME = "";
+				ORGANIZATIONNAME = "Music Research Unit";
 				TargetAttributes = {
 					01AA406C2DABDFA060EDFCC2 = {
 						SystemCapabilities = {
@@ -654,14 +654,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -670,27 +670,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -700,7 +700,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
@@ -709,9 +709,9 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
 				OTHER_LDFLAGS = "-bundle -lFunction\\ Generator";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -748,14 +748,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -764,27 +764,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -794,7 +794,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
@@ -803,10 +803,10 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
 				OTHER_LDFLAGS = "-bundle -lFunction\\ Generator";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -843,14 +843,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -859,27 +859,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -888,7 +888,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
@@ -896,8 +896,8 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "juce_vst3_helper";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -933,14 +933,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -949,27 +949,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -978,7 +978,7 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
@@ -986,9 +986,9 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
 				OTHER_LDFLAGS = "-lFunction\\ Generator";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -1032,14 +1032,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1048,27 +1048,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -1077,15 +1077,15 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info-VST3_Manifest_Helper.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "juce_vst3_helper";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -1121,14 +1121,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1137,27 +1137,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -1166,16 +1166,16 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
 				OTHER_LDFLAGS = "-lFunction\\ Generator";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -1211,14 +1211,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1227,27 +1227,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -1257,14 +1257,14 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
@@ -1350,14 +1350,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1366,27 +1366,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -1396,7 +1396,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
@@ -1406,10 +1406,10 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
 				OTHER_LDFLAGS = "-bundle -lFunction\\ Generator";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
@@ -1446,14 +1446,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1462,27 +1462,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -1492,15 +1492,15 @@
 				);
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
@@ -1537,14 +1537,14 @@
 					"JucePlugin_Enable_ARA=0",
 					"JucePlugin_Name=\\\"Function\\ Generator\\\"",
 					"JucePlugin_Desc=\\\"Function\\ Generator\\\"",
-					"JucePlugin_Manufacturer=\\\"yourcompany\\\"",
-					"JucePlugin_ManufacturerWebsite=\\\"www.yourcompany.com\\\"",
+					"JucePlugin_Manufacturer=\\\"Music\\ Research\\ Unit\\\"",
+					"JucePlugin_ManufacturerWebsite=\\\"www.MusicResearchUnit.com\\\"",
 					"JucePlugin_ManufacturerEmail=\\\"\\\"",
 					"JucePlugin_ManufacturerCode=0x4d616e75",
 					"JucePlugin_PluginCode=0x49667977",
 					"JucePlugin_IsSynth=0",
-					"JucePlugin_WantsMidiInput=0",
-					"JucePlugin_ProducesMidiOutput=0",
+					"JucePlugin_WantsMidiInput=1",
+					"JucePlugin_ProducesMidiOutput=1",
 					"JucePlugin_IsMidiEffect=0",
 					"JucePlugin_EditorRequiresKeyboardFocus=0",
 					"JucePlugin_Version=1.0.0",
@@ -1553,27 +1553,27 @@
 					"JucePlugin_VSTUniqueID=JucePlugin_PluginCode",
 					"JucePlugin_VSTCategory=kPlugCategEffect",
 					"JucePlugin_Vst3Category=\\\"Fx\\\"",
-					"JucePlugin_AUMainType=\\'aufx\\'",
+					"JucePlugin_AUMainType=\\'aumf\\'",
 					"JucePlugin_AUSubType=JucePlugin_PluginCode",
 					"JucePlugin_AUExportPrefix=FunctionGeneratorAU",
 					"JucePlugin_AUExportPrefixQuoted=\\\"FunctionGeneratorAU\\\"",
 					"JucePlugin_AUManufacturerCode=JucePlugin_ManufacturerCode",
-					"JucePlugin_CFBundleIdentifier=com.yourcompany.FunctionGenerator",
-					"JucePlugin_AAXIdentifier=com.yourcompany.FunctionGenerator",
+					"JucePlugin_CFBundleIdentifier=com.MusicResearchUnit.FunctionGenerator",
+					"JucePlugin_AAXIdentifier=com.MusicResearchUnit.FunctionGenerator",
 					"JucePlugin_AAXManufacturerCode=JucePlugin_ManufacturerCode",
 					"JucePlugin_AAXProductId=JucePlugin_PluginCode",
 					"JucePlugin_AAXCategory=0",
 					"JucePlugin_AAXDisableBypass=0",
 					"JucePlugin_AAXDisableMultiMono=0",
-					"JucePlugin_IAAType=0x61757278",
+					"JucePlugin_IAAType=0x6175726d",
 					"JucePlugin_IAASubType=JucePlugin_PluginCode",
-					"JucePlugin_IAAName=\\\"yourcompany:\\ Function\\ Generator\\\"",
+					"JucePlugin_IAAName=\\\"Music\\ Research\\ Unit:\\ Function\\ Generator\\\"",
 					"JucePlugin_VSTNumMidiInputs=16",
 					"JucePlugin_VSTNumMidiOutputs=16",
 					"JucePlugin_ARAContentTypes=0",
 					"JucePlugin_ARATransformationFlags=0",
-					"JucePlugin_ARAFactoryID=\\\"com.yourcompany.FunctionGenerator.factory\\\"",
-					"JucePlugin_ARADocumentArchiveID=\\\"com.yourcompany.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
+					"JucePlugin_ARAFactoryID=\\\"com.MusicResearchUnit.FunctionGenerator.factory\\\"",
+					"JucePlugin_ARADocumentArchiveID=\\\"com.MusicResearchUnit.FunctionGenerator.aradocumentarchive.1.0.0\\\"",
 					"JucePlugin_ARACompatibleArchiveIDs=\\\"\\\"",
 					"JUCE_STANDALONE_APPLICATION=JucePlugin_Build_Standalone",
 					"JUCER_XCODE_MAC_F6D2F4CF=1",
@@ -1583,7 +1583,7 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
-					"$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
+					"$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(inherited)",
 				);
@@ -1593,9 +1593,9 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_HEADER_SEARCH_PATHS = "$(HOME)/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
+				MTL_HEADER_SEARCH_PATHS = "$(HOME)/Documents/GitHub/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode";
 				OTHER_LDFLAGS = "-bundle -lFunction\\ Generator";
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FunctionGenerator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.MusicResearchUnit.FunctionGenerator;
 				PRODUCT_NAME = "Function Generator";
 				USE_HEADERMAP = NO;
 				VALID_ARCHS = "i386 x86_64 arm64 arm64e";
