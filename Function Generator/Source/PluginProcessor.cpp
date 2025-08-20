@@ -93,8 +93,8 @@ void FunctionGeneratorAudioProcessor::changeProgramName (int index, const juce::
 //==============================================================================
 void FunctionGeneratorAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
-    // Use this method as the place to do any pre-playback
-    // initialisation that you need..
+    this->sampleRate = sampleRate;
+    this->expectedSamplesPerBlock = samplesPerBlock;
 }
 
 void FunctionGeneratorAudioProcessor::releaseResources()
@@ -132,6 +132,9 @@ bool FunctionGeneratorAudioProcessor::isBusesLayoutSupported (const BusesLayout&
 void FunctionGeneratorAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midiMessages)
 {
     juce::ScopedNoDenormals noDenormals;
+    
+    int numSamples = buffer.getNumSamples();
+    
     auto totalNumInputChannels  = getTotalNumInputChannels();
     auto totalNumOutputChannels = getTotalNumOutputChannels();
 
@@ -142,7 +145,7 @@ void FunctionGeneratorAudioProcessor::processBlock (juce::AudioBuffer<float>& bu
     // when they first compile a plugin, but obviously you don't need to keep
     // this code if your algorithm always overwrites all the output channels.
     for (auto i = totalNumInputChannels; i < totalNumOutputChannels; ++i)
-        buffer.clear (i, 0, buffer.getNumSamples());
+        buffer.clear (i, 0, numSamples);
 
     // This is the place where you'd normally do the guts of your plugin's
     // audio processing...
@@ -150,8 +153,9 @@ void FunctionGeneratorAudioProcessor::processBlock (juce::AudioBuffer<float>& bu
     // the samples and the outer loop is handling the channels.
     // Alternatively, you can process the samples with the channels
     // interleaved by keeping the same state.
-    for (int channel = 0; channel < totalNumInputChannels; ++channel)
+    for (int channel = 0; channel < totalNumOutputChannels; ++channel)
     {
+        buffer.clear(channel, 0, numSamples);
         auto* channelData = buffer.getWritePointer (channel);
 
         // ..do something to the data...

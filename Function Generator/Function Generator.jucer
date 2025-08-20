@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="g9wZ9b" name="Function Generator" projectType="audioplug"
-              jucerFormatVersion="1" companyName="Music Research Unit" pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn">
-  <MAINGROUP id="Grvq2k" name="Function Generator">
-    <GROUP id="{7EC15DCC-4885-824E-B006-61350AA296C1}" name="Source">
-      <FILE id="HBmIpP" name="PluginProcessor.cpp" compile="1" resource="0"
+<JUCERPROJECT id="WTvajK" name="Function Generator" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1"
+              companyName="Music Research Unit" pluginCharacteristicsValue="pluginIsSynth,pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginManufacturerCode="MRU0" pluginCode="FNGN">
+  <MAINGROUP id="sKpuXI" name="Function Generator">
+    <GROUP id="{16D0E352-81A0-A671-8A02-5DE32F47D620}" name="Source">
+      <FILE id="PDHHNW" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="JiaGAd" name="PluginProcessor.h" compile="0" resource="0"
+      <FILE id="z4Wl1a" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
-      <FILE id="HcjJnA" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="NfK38s" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="Mix0yf" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="KXr5yU" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
