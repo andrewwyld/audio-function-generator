@@ -84,6 +84,7 @@
 		67BEBCC62E55CAD400620BBA /* StereoFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBCC52E55CAD200620BBA /* StereoFunction.cpp */; };
 		67BEBCC92E55CAE300620BBA /* MonoFunction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBCC82E55CAE200620BBA /* MonoFunction.cpp */; };
 		67BEBCCC2E55EA2D00620BBA /* TimeConversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBCCB2E55EA2C00620BBA /* TimeConversion.cpp */; };
+		67BEBCCF2E564BCB00620BBA /* StereoVoiceEnsemble.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 67BEBCCE2E564BCA00620BBA /* StereoVoiceEnsemble.cpp */; };
 		6A29F9287374BB24C2104674 /* include_juce_gui_extra.mm in Sources */ = {isa = PBXBuildFile; fileRef = A930D6A7AA613805B85278EF /* include_juce_gui_extra.mm */; };
 		7407C253C5928FC2B09BC692 /* include_juce_events.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDA59A59E3F6D656D50C894D /* include_juce_events.mm */; };
 		7A1594D8B1777C77BF365C1E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0FDA6E6BA57E3FCC7C3BE7C /* Cocoa.framework */; };
@@ -218,6 +219,8 @@
 		67BEBCC82E55CAE200620BBA /* MonoFunction.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MonoFunction.cpp; sourceTree = "<group>"; };
 		67BEBCCA2E55E8FB00620BBA /* TimeConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimeConversion.h; sourceTree = "<group>"; };
 		67BEBCCB2E55EA2C00620BBA /* TimeConversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TimeConversion.cpp; sourceTree = "<group>"; };
+		67BEBCCD2E564B6A00620BBA /* StereoVoiceEnsemble.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StereoVoiceEnsemble.h; sourceTree = "<group>"; };
+		67BEBCCE2E564BCA00620BBA /* StereoVoiceEnsemble.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StereoVoiceEnsemble.cpp; sourceTree = "<group>"; };
 		6BD52CF800704DAF52C302DA /* include_juce_audio_devices.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_devices.mm; path = ../../JuceLibraryCode/include_juce_audio_devices.mm; sourceTree = SOURCE_ROOT; };
 		6DCE30E3C50A4454A170F61C /* Info-VST3.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-VST3.plist"; sourceTree = SOURCE_ROOT; };
 		6FAB8002566E26A8BE7B0DF5 /* PluginProcessor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PluginProcessor.cpp; path = ../../Source/PluginProcessor.cpp; sourceTree = SOURCE_ROOT; };
@@ -423,6 +426,8 @@
 		B10A07DADC7B2D58339B5216 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				67BEBCCE2E564BCA00620BBA /* StereoVoiceEnsemble.cpp */,
+				67BEBCCD2E564B6A00620BBA /* StereoVoiceEnsemble.h */,
 				67BEBCCB2E55EA2C00620BBA /* TimeConversion.cpp */,
 				67BEBCCA2E55E8FB00620BBA /* TimeConversion.h */,
 				67BEBCC82E55CAE200620BBA /* MonoFunction.cpp */,
@@ -862,6 +867,7 @@
 				8EE5062AC5392E88B76D0AB3 /* include_juce_audio_formats.mm in Sources */,
 				24A719A0A0F7C0FCF4AE9224 /* include_juce_audio_plugin_client_ARA.cpp in Sources */,
 				67BEBCCC2E55EA2D00620BBA /* TimeConversion.cpp in Sources */,
+				67BEBCCF2E564BCB00620BBA /* StereoVoiceEnsemble.cpp in Sources */,
 				81F110A39434DB06C3F51EE7 /* include_juce_audio_processors.mm in Sources */,
 				D7D875EBC21558F2A2E2FB61 /* include_juce_audio_processors_ara.cpp in Sources */,
 				36A7ED8CCE4B986558AE38B1 /* include_juce_audio_processors_lv2_libs.cpp in Sources */,
