@@ -14,6 +14,21 @@
             file="Source/PluginEditor.cpp"/>
       <FILE id="KXr5yU" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
+    <FILE id="RrYJ0x" name="MonoFunction.cpp" compile="1" resource="0"
+          file="Source/MonoFunction.cpp"/>
+    <FILE id="js4e6F" name="MonoFunction.h" compile="0" resource="0" file="Source/MonoFunction.h"/>
+    <FILE id="uO1FAw" name="StereoFunction.cpp" compile="1" resource="0"
+          file="Source/StereoFunction.cpp"/>
+    <FILE id="rb6gse" name="StereoFunction.h" compile="0" resource="0"
+          file="Source/StereoFunction.h"/>
+    <FILE id="xBiRDH" name="StereoVoiceEnsemble.cpp" compile="1" resource="0"
+          file="Source/StereoVoiceEnsemble.cpp"/>
+    <FILE id="aPmnbZ" name="StereoVoiceEnsemble.h" compile="0" resource="0"
+          file="Source/StereoVoiceEnsemble.h"/>
+    <FILE id="U2Wo7M" name="TimeConversion.cpp" compile="1" resource="0"
+          file="Source/TimeConversion.cpp"/>
+    <FILE id="r3VAUA" name="TimeConversion.h" compile="0" resource="0"
+          file="Source/TimeConversion.h"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
