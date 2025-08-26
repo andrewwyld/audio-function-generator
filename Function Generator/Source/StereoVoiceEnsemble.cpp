@@ -12,7 +12,7 @@ template <typename T> StereoVoiceEnsemble<T>::StereoVoiceEnsemble():
 voices(new std::vector<StereoFunction<T>>())
 {};
 
-template <typename T> T StereoVoiceEnsemble<T>::__preprocess(<#int sample#>)
+template <typename T> void StereoVoiceEnsemble<T>::__preprocess(int sample)
 {
     for (StereoFunction<T> voice: voices)
     {
@@ -21,12 +21,12 @@ template <typename T> T StereoVoiceEnsemble<T>::__preprocess(<#int sample#>)
     }
 }
 
-template <typename T> T StereoVoiceEnsemble<T>::__left(<#int sample#>)
+template <typename T> T StereoVoiceEnsemble<T>::__left(int sample)
 {
     return leftSum;
 }
 
-template <typename T> T StereoVoiceEnsemble<T>::__right(<#int sample#>)
+template <typename T> T StereoVoiceEnsemble<T>::__right(int sample)
 {
     return rightSum;
 }
