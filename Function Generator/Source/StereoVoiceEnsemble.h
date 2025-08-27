@@ -14,9 +14,9 @@ public:
     StereoVoiceEnsemble();
     
 protected:
-    virtual void __preprocess(int sample);
-    virtual T __left(int sample);
-    virtual T __right(int sample);
+    virtual void __preprocess(int sample) override;
+    virtual T __left(int sample) override;
+    virtual T __right(int sample) override;
 
     
 private:

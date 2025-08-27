@@ -13,22 +13,29 @@
       <FILE id="NfK38s" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
       <FILE id="KXr5yU" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="IZQwmR" name="Envelope.cpp" compile="1" resource="0" file="Source/Envelope.cpp"/>
+      <FILE id="rhAlMp" name="Envelope.h" compile="0" resource="0" file="Source/Envelope.h"/>
+      <FILE id="cWAedp" name="EnvelopeSegment.cpp" compile="1" resource="0"
+            file="Source/EnvelopeSegment.cpp"/>
+      <FILE id="yphET6" name="EnvelopeSegment.h" compile="0" resource="0"
+            file="Source/EnvelopeSegment.h"/>
+      <FILE id="RrYJ0x" name="MonoFunction.cpp" compile="1" resource="0"
+            file="Source/MonoFunction.cpp"/>
+      <FILE id="js4e6F" name="MonoFunction.h" compile="0" resource="0" file="Source/MonoFunction.h"/>
+      <FILE id="uO1FAw" name="StereoFunction.cpp" compile="1" resource="0"
+            file="Source/StereoFunction.cpp"/>
+      <FILE id="rb6gse" name="StereoFunction.h" compile="0" resource="0"
+            file="Source/StereoFunction.h"/>
+      <FILE id="xBiRDH" name="StereoVoiceEnsemble.cpp" compile="1" resource="0"
+            file="Source/StereoVoiceEnsemble.cpp"/>
+      <FILE id="aPmnbZ" name="StereoVoiceEnsemble.h" compile="0" resource="0"
+            file="Source/StereoVoiceEnsemble.h"/>
+      <FILE id="U2Wo7M" name="TimeConversion.cpp" compile="1" resource="0"
+            file="Source/TimeConversion.cpp"/>
+      <FILE id="r3VAUA" name="TimeConversion.h" compile="0" resource="0"
+            file="Source/TimeConversion.h"/>
     </GROUP>
-    <FILE id="RrYJ0x" name="MonoFunction.cpp" compile="1" resource="0"
-          file="Source/MonoFunction.cpp"/>
-    <FILE id="js4e6F" name="MonoFunction.h" compile="0" resource="0" file="Source/MonoFunction.h"/>
-    <FILE id="uO1FAw" name="StereoFunction.cpp" compile="1" resource="0"
-          file="Source/StereoFunction.cpp"/>
-    <FILE id="rb6gse" name="StereoFunction.h" compile="0" resource="0"
-          file="Source/StereoFunction.h"/>
-    <FILE id="xBiRDH" name="StereoVoiceEnsemble.cpp" compile="1" resource="0"
-          file="Source/StereoVoiceEnsemble.cpp"/>
-    <FILE id="aPmnbZ" name="StereoVoiceEnsemble.h" compile="0" resource="0"
-          file="Source/StereoVoiceEnsemble.h"/>
-    <FILE id="U2Wo7M" name="TimeConversion.cpp" compile="1" resource="0"
-          file="Source/TimeConversion.cpp"/>
-    <FILE id="r3VAUA" name="TimeConversion.h" compile="0" resource="0"
-          file="Source/TimeConversion.h"/>
+    <FILE id="URTrsB" name="Stupidity.cpp" compile="1" resource="0" file="Source/Stupidity.cpp"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
