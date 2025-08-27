@@ -26,6 +26,10 @@
             file="Source/StereoFunction.cpp"/>
       <FILE id="rb6gse" name="StereoFunction.h" compile="0" resource="0"
             file="Source/StereoFunction.h"/>
+      <FILE id="DUg3XJ" name="StereoSawtooth.cpp" compile="1" resource="0"
+            file="Source/StereoSawtooth.cpp"/>
+      <FILE id="V7ewPA" name="StereoSawtooth.h" compile="0" resource="0"
+            file="Source/StereoSawtooth.h"/>
       <FILE id="xBiRDH" name="StereoVoiceEnsemble.cpp" compile="1" resource="0"
             file="Source/StereoVoiceEnsemble.cpp"/>
       <FILE id="aPmnbZ" name="StereoVoiceEnsemble.h" compile="0" resource="0"
@@ -35,7 +39,6 @@
       <FILE id="r3VAUA" name="TimeConversion.h" compile="0" resource="0"
             file="Source/TimeConversion.h"/>
     </GROUP>
-    <FILE id="URTrsB" name="Stupidity.cpp" compile="1" resource="0" file="Source/Stupidity.cpp"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
