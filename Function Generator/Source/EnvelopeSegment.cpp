@@ -10,18 +10,45 @@
 
 #include "EnvelopeSegment.h"
 
-template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, T start, T end, T duration)
-: start(start), end(end), duration(duration), type(type)
+// full values constructor
+template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, T start, T end, T duration, T startTime):
+startValue(start),
+endValue(end),
+duration(duration),
+type(type),
+startTime(startTime),
+endTime(startTime + duration),
+fixedTimeline(type != SUSTAIN)
 {}
 
-template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous, T end, T duration)
-: start(previous.end), end(end), duration(duration), type(type)
+// initial delay constructor
+template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, T duration, T startTime):
+startValue(0.f),
+endValue(0.f),
+duration(duration),
+type(type),
+startTime(startTime),
+endTime(startTime + duration),
+fixedTimeline(type != SUSTAIN)
 {}
 
-template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous)
-: start(previous.end), end(previous.end), duration(0.f), type(type)
+// sequence constructor
+template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous, T end, T duration):
+startValue(previous.endValue),
+endValue(end),
+duration(duration),
+type(type),
+startTime(previous.fixedTimeline? previous.endTime : 0.f),
+endTime(previous.fixedTimeline? previous.endTime + duration : 0.f),
+fixedTimeline(previous.fixedTimeline && type != SUSTAIN)
 {}
 
-template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, T duration)
-: start(0.f), end(0.f), duration(duration), type(type)
+// sustain constructor
+template <typename T> EnvelopeSegment<T>::EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous):
+startValue(previous.endValue),
+endValue(previous.endValue),
+duration(0.f), type(type),
+startTime(previous.fixedTimeline? previous.endTime : 0.f),
+endTime(previous.fixedTimeline? previous.endTime + duration : 0.f),
+fixedTimeline(previous.fixedTimeline && type != SUSTAIN)
 {}

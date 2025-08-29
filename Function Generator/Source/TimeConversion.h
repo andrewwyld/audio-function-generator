@@ -6,6 +6,8 @@
 //  Copyright © 2025 Music Research Unit. All rights reserved.
 //
 
+#pragma once
+
 class TimeConversion
 {
 public:

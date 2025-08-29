@@ -12,11 +12,15 @@
 
 #include <JuceHeader.h>
 #include "StereoFunction.h"
+#include "Envelope.h"
 
 template <typename T> class StereoSawtooth: public StereoFunction<T>
 {
     public:
     StereoSawtooth(const juce::MidiMessage& message);
+    
+    // routes method to this class, envelopes, modulators
+    void prepareToPlay(double sampleRate, int samplesPerBlock) override;
     
     protected:
     virtual void __preprocess(int sample) override;
@@ -27,5 +31,7 @@ template <typename T> class StereoSawtooth: public StereoFunction<T>
     double __frequency(int sample);
     const int noteNumber;
     const double noteFrequency;
+    
+    const Envelope<T>* envelope;
     
 };

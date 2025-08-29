@@ -13,12 +13,14 @@
 
 //==============================================================================
 
-template <typename T> Envelope<T>::Envelope(std::vector<EnvelopeSegment<T>>& segments):
-segments(segments)
+template <typename T> Envelope<T>::Envelope(std::vector<EnvelopeSegment<T>>* segments):
+segments(segments),
+currentSegmentIdx(0)
 {}
 
 template <typename T> Envelope<T>::Envelope(EnvelopeType type, EnvelopeSegmentType segType, T* values):
-segments(*constructFrom(type, segType, values))
+segments(constructFrom(type, segType, values)),
+currentSegmentIdx(0)
 {}
 
 template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructFrom(EnvelopeType type, EnvelopeSegmentType segType, T* values)
@@ -36,6 +38,15 @@ template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constr
         case DADSR:
             return constructDADSR(output, segType, values);
     }
+}
+
+template <typename T> T Envelope<T>::process(int sample)
+{
+    // is the segment at the current index in operation
+    
+    // if not, move to the next segment
+        
+    // otherwise, process the current segment and return the segment value
 }
 
 template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructAR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values)

@@ -13,6 +13,7 @@
 #include <vector>
 #include <JuceHeader.h>
 #include "EnvelopeSegment.h"
+#include "TimeConversion.h"
 
 #define HIGHEST 1.f
 #define LOWEST 0.f
@@ -27,17 +28,21 @@ enum EnvelopeType
     DADSR, // delay-attack-decay-sustain-release
 };
 
-template <typename T> class Envelope
+template <typename T> class Envelope: public TimeConversion
 {
 public:
-    Envelope(std::vector<EnvelopeSegment<T>>& segments);
+    Envelope(std::vector<EnvelopeSegment<T>>* segments);
     Envelope(EnvelopeType type, EnvelopeSegmentType segType, T* values);
     
+    T process(int sample);
+    
 private:
-    const std::vector<EnvelopeSegment<T>>& segments;
+    const std::vector<EnvelopeSegment<T>>* segments;
     static const std::vector<EnvelopeSegment<T>>* constructFrom(EnvelopeType type, EnvelopeSegmentType segType, T* values);
 
     static const std::vector<EnvelopeSegment<T>>* constructAR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
     static const std::vector<EnvelopeSegment<T>>* constructADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
     static const std::vector<EnvelopeSegment<T>>* constructDADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
+    
+    int currentSegmentIdx;
 };
