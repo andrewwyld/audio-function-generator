@@ -36,6 +36,8 @@ public:
     
     T process(int sample);
     
+    bool isComplete();
+    
 private:
     const std::vector<EnvelopeSegment<T>>* segments;
     static const std::vector<EnvelopeSegment<T>>* constructFrom(EnvelopeType type, EnvelopeSegmentType segType, T* values);
@@ -45,4 +47,6 @@ private:
     static const std::vector<EnvelopeSegment<T>>* constructDADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
     
     int currentSegmentIdx;
+    
+    bool __isComplete;
 };

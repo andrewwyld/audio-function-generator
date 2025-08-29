@@ -42,12 +42,31 @@ template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constr
 
 template <typename T> T Envelope<T>::process(int sample)
 {
-    // is the segment at the current index in operation
+    if (isComplete())
+    {
+        return 0.f;
+    }
     
-    // if not, move to the next segment
-        
-    // otherwise, process the current segment and return the segment value
+    if (segments->at(currentSegmentIdx).isComplete(sample))
+    {
+        ++currentSegmentIdx;
+    }
+    
+    if (currentSegmentIdx > segments->size())
+    {
+        __isComplete = true;
+        return 0.f;
+    }
+    
+    // process envelope segment for current sample
 }
+
+template <typename T> bool Envelope<T>::isComplete()
+{
+    return __isComplete;
+}
+
+// STATIC
 
 template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructAR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values)
 {
