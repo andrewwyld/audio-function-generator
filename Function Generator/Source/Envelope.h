@@ -27,17 +27,17 @@ enum EnvelopeType
     DADSR, // delay-attack-decay-sustain-release
 };
 
-class Envelope
+template <typename T> class Envelope
 {
 public:
-    Envelope(std::vector<EnvelopeSegment>& segments);
-    Envelope(EnvelopeType type, EnvelopeSegmentType segType, float* values);
+    Envelope(std::vector<EnvelopeSegment<T>>& segments);
+    Envelope(EnvelopeType type, EnvelopeSegmentType segType, T* values);
     
 private:
-    const std::vector<EnvelopeSegment>& segments;
-    static const std::vector<EnvelopeSegment>* constructFrom(EnvelopeType type, EnvelopeSegmentType segType, float* values);
+    const std::vector<EnvelopeSegment<T>>& segments;
+    static const std::vector<EnvelopeSegment<T>>* constructFrom(EnvelopeType type, EnvelopeSegmentType segType, T* values);
 
-    static const std::vector<EnvelopeSegment>* constructAR(std::vector<EnvelopeSegment>* output, EnvelopeSegmentType type, float* values);
-    static const std::vector<EnvelopeSegment>* constructADSR(std::vector<EnvelopeSegment>* output, EnvelopeSegmentType type, float* values);
-    static const std::vector<EnvelopeSegment>* constructDADSR(std::vector<EnvelopeSegment>* output, EnvelopeSegmentType type, float* values);
+    static const std::vector<EnvelopeSegment<T>>* constructAR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
+    static const std::vector<EnvelopeSegment<T>>* constructADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
+    static const std::vector<EnvelopeSegment<T>>* constructDADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values);
 };

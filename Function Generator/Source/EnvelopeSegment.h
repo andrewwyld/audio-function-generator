@@ -18,17 +18,17 @@ enum EnvelopeSegmentType
     SUSTAIN
 };
 
-class EnvelopeSegment
+template <typename T> class EnvelopeSegment
 {
     public:
-    EnvelopeSegment(EnvelopeSegmentType type, float start, float end, float duration);
-    EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous, float end, float duration);
+    EnvelopeSegment(EnvelopeSegmentType type, T start, T end, T duration);
+    EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous, T end, T duration);
     EnvelopeSegment(EnvelopeSegmentType type, EnvelopeSegment previous); // for sustain
-    EnvelopeSegment(EnvelopeSegmentType type, float duration); // for delay
+    EnvelopeSegment(EnvelopeSegmentType type, T duration); // for delay
 
     private:
-    const float start;
-    const float end;
-    const float duration;
+    const T start;
+    const T end;
+    const T duration;
     const EnvelopeSegmentType type ;
 };

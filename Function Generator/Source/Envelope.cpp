@@ -13,17 +13,17 @@
 
 //==============================================================================
 
-Envelope::Envelope(std::vector<EnvelopeSegment>& segments):
+template <typename T> Envelope<T>::Envelope(std::vector<EnvelopeSegment<T>>& segments):
 segments(segments)
 {}
 
-Envelope::Envelope(EnvelopeType type, EnvelopeSegmentType segType, float* values):
+template <typename T> Envelope<T>::Envelope(EnvelopeType type, EnvelopeSegmentType segType, T* values):
 segments(*constructFrom(type, segType, values))
 {}
 
-const std::vector<EnvelopeSegment>* Envelope::constructFrom(EnvelopeType type, EnvelopeSegmentType segType, float* values)
+template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructFrom(EnvelopeType type, EnvelopeSegmentType segType, T* values)
 {
-    std::vector<EnvelopeSegment>* output = new std::vector<EnvelopeSegment>();
+    std::vector<EnvelopeSegment<T>>* output = new std::vector<EnvelopeSegment<T>>();
     
     switch (type)
     {
@@ -38,7 +38,7 @@ const std::vector<EnvelopeSegment>* Envelope::constructFrom(EnvelopeType type, E
     }
 }
 
-static const std::vector<EnvelopeSegment>* constructAR(std::vector<EnvelopeSegment>* output, EnvelopeSegmentType type, float* values)
+template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructAR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values)
 {
     auto& attack = output->emplace_back(type, LOWEST, HIGHEST, values[0]);
     auto& sustain = output->emplace_back(SUSTAIN, attack);
@@ -46,7 +46,7 @@ static const std::vector<EnvelopeSegment>* constructAR(std::vector<EnvelopeSegme
     return output;
 }
 
-static const std::vector<EnvelopeSegment>* constructADSR(std::vector<EnvelopeSegment>* output, EnvelopeSegmentType type, float* values)
+template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values)
 {
     auto& attack = output->emplace_back(type, LOWEST, HIGHEST, values[0]);
     auto& decay = output->emplace_back(type, attack, values[2], values[1]); // DECAY duration value comes before SUSTAIN value
@@ -55,7 +55,7 @@ static const std::vector<EnvelopeSegment>* constructADSR(std::vector<EnvelopeSeg
     return output;
 }
 
-static const std::vector<EnvelopeSegment>* constructDADSR(std::vector<EnvelopeSegment>* output, EnvelopeSegmentType type, float* values)
+template <typename T> const std::vector<EnvelopeSegment<T>>* Envelope<T>::constructDADSR(std::vector<EnvelopeSegment<T>>* output, EnvelopeSegmentType type, T* values)
 {
     auto& delay = output->emplace_back(DELAY, values[0]);
     auto& attack = output->emplace_back(type, delay, HIGHEST, values[1]);

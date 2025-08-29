@@ -10,11 +10,13 @@
 
 #pragma once
 
+#include <JuceHeader.h>
 #include "StereoFunction.h"
 
 template <typename T> class StereoSawtooth: public StereoFunction<T>
 {
     public:
+    StereoSawtooth(const juce::MidiMessage& message);
     
     protected:
     virtual void __preprocess(int sample) override;
@@ -22,5 +24,8 @@ template <typename T> class StereoSawtooth: public StereoFunction<T>
     virtual T __right(int sample) override;
 
     private:
-    float __frequency(int sample);
+    double __frequency(int sample);
+    const int noteNumber;
+    const double noteFrequency;
+    
 };
